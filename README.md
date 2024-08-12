@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Preview Link
+
+[https://trvald-task.vercel.app/](https://trvald-task.vercel.app/)
+
+# TRVALD Frontend Challenge
+
+This task aims to create a Next.js application utilizing Next UI, deploy it to Vercel, and integrate it with Airtable and Supabase for data management. The data should flow one way from Airtable to Supabase and be displayed in the application using Next UI card elements.
+
+## Features
+
+- **Main View**:
+
+- List the data from Airtable fetched with supabase in NextUI Cards.
+
+- Search from the fetched data.
+
+## Technology Stack
+
+- **Framework**: ReactJs with Next.js
+
+- **Type-Safety**: TypeScript.
+
+- **UI Component Library**: NextUI.
+
+- **Supabase**: Fetch data from the Wemolo GraphQL API.
+
+- **Testing**: Jest for unit tests.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js
+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+
+git clone https://github.com/frankoprifti/trvald-task
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+cd trvald-task
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm install
 
-## Deploy on Vercel
+# or
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+yarn install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+
+### Running the Application
+
+To start the development server:
+
+```sh
+
+npm run dev
+
+# or
+
+yarn dev
+
+```
+
+Open http://localhost:3000 with your browser to see the result.
+
+# Building for Production
+
+To build the application for production:
+
+```sh
+npm run build
+
+# or
+
+yarn build
+```
+
+To start the production server:
+
+```sh
+npm run start
+
+# or
+
+yarn start
+```
+
+# Linting
+
+To lint the codebase:
+
+```sh
+
+npm run lint
+
+# or
+
+yarn lint
+```
+
+# Testing
+
+To run tests:
+
+```sh
+
+npm run test
+
+# or
+
+yarn test
+```
