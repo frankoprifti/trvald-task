@@ -6,7 +6,7 @@ import React from "react";
 export default function CardsDisplay({ data }: { data: DataCardProps[] }) {
   const { searchValue } = useSearch();
   return (
-    <div className="flex row h-full gap-4 p-4 flex-wrap max-w-[1024px] mx-auto">
+    <div className="flex row h-full gap-4 p-4 flex-wrap max-w-[1024px]">
       {data
         .filter(
           (item) =>

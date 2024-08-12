@@ -10,12 +10,14 @@ export default async function Home() {
   }
 
   return (
-    <CardsDisplay
-      data={data.map((item) => ({
-        title: item.title,
-        shortDescription: item["short description"],
-        image: item?.image?.[0]?.url || "",
-      }))}
-    />
+    <div className="flex justify-center w-full">
+      <CardsDisplay
+        data={data.map((item) => ({
+          title: item.title,
+          shortDescription: item["short description"],
+          image: item?.image?.[0]?.url || "",
+        }))}
+      />
+    </div>
   );
 }

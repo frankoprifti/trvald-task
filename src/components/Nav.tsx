@@ -1,18 +1,15 @@
 "use client";
-import React from "react";
+import AirtableLogo from "@/assets/Airtable-Logo.png";
+import { useSearch } from "@/context/SearchContext";
+import { SearchIcon } from "@/icons/SearchIcon";
 import {
+  Input,
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
-  Button,
-  Input,
 } from "@nextui-org/react";
-import AirtableLogo from "@/assets/Airtable-Logo.png";
 import Image from "next/image";
-import { SearchIcon } from "@/icons/SearchIcon";
-import { useSearch } from "@/context/SearchContext";
 
 export default function Nav() {
   const { searchValue, setSearchValue } = useSearch();
