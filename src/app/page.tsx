@@ -1,6 +1,8 @@
 import CardsDisplay from "@/layout/CardsDisplay";
 import { supabase } from "../lib/supabaseClient";
 
+export const revalidate = 0;
+
 export default async function Home() {
   const { data, error } = await supabase.from("Table 1").select("*");
 
