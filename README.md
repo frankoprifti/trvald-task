@@ -22,7 +22,7 @@ This task aims to create a Next.js application utilizing Next UI, deploy it to V
 
 - **UI Component Library**: NextUI.
 
-- **Supabase**: Fetch data from the Wemolo GraphQL API.
+- **Supabase**: Fetch data from Supabase.
 
 - **Testing**: Jest for unit tests.
 
